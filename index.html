@@ -1,29 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="./src/css/style.css" />
     <title>IT_Cur4tor</title>
-</head>
-<body>
+  </head>
+  <body class="font-light dark:bg-slate-900">
     <div class="wrapper container mx-auto h-screen xl:flex flex-col">
-        <header class="border border-blue-400">
-            Header
-        </header>
-        <main class="flex flex-auto flex-row">
-            <aside class="flex flex-col xl:w-28 border border-amber-700">
-                <nav class="flex-auto">
-                    Navigation
-                </nav>
-                <footer class="text-center text-zinc-300 text-sm">
-                    Created by magna_mentes
-                </footer>
-            </aside>
-            <section class="content flex-auto border border-green-500">
-                Main
-            </section>
-        </main>
+      <header class="flex justify-between px-2 py-2">
+        <div class="logo">
+          <h1 class="text-xl font-mono font-bold">IT_Cur4tor</h1>
+        </div>
+        <nav class="header-nav">
+          <ul class="flex gap-2 text-lg">
+            <li class=""><a href="#">About</a></li>
+            <li class=""><a href="#">Prices</a></li>
+            <li class=""><a href="#">Help</a></li>
+            <li class=""><a href="#">Account</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="flex flex-auto flex-row">
+        <aside class="flex flex-col">
+          <nav class="flex-auto px-2 py-2">
+            <ul class="flex flex-col gap-2 text-lg">
+              <li class="">
+                <a class="flex gap-1" href="#">
+                  <span class="material-symbols-outlined"> notifications </span>
+                  <p id="incidents">Incidents</p>
+                </a>
+              </li>
+              <li class="">
+                <a class="flex gap-1" href="#">
+                  <span class="material-symbols-outlined"> visibility </span>
+                  <p id="monitoring">Monitoring</p>
+                </a>
+              </li>
+              <li class="">
+                <a class="flex gap-1" href="#">
+                  <span class="material-symbols-outlined"> memory </span>
+                  <p id="automation">Automation</p>
+                </a>
+              </li>
+              <li class="">
+                <a class="flex gap-1" href="#">
+                  <span class="material-symbols-outlined"> leaderboard </span>
+                  <p id="reports">Reports</p>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </aside>
+        <section class="content flex-auto px-2 py-2 mr-2 border rounded-md">
+          Main
+        </section>
+      </main>
+      <footer class="flex justify-end px-2">
+        <p class="text-zinc-300">Created by magna_mentes &copy 2024</p>
+      </footer>
     </div>
-</body>
+  </body>
 </html>
