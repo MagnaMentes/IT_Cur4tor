@@ -10,11 +10,38 @@
     <link rel="stylesheet" href="./src/css/style.css" />
     <title>IT_Cur4tor</title>
   </head>
-  <body class="">
+  <body class="text-slate-600">
     <div class="container mx-auto px-4 h-screen flex flex-col border">
-      <header class="">HEADER</header>
-      <main class="">MAIN</main>
-      <footer class="">FOOTER</footer>
+      <header class="h-16 flex items-center justify-between">
+        <div class="logo text-3xl font-mono text-indigo-500">IT_Cur4tor</div>
+        <div class="top-nav">
+          <ul class="flex items-center gap-4 text-xl">
+            <li class="cursor-pointer">
+              <a class="flex gap-1 items-center font-light transition-all hover:text-indigo-600" href="#">
+                <span class="material-symbols-outlined"> home </span>
+                <p>Home</p>
+              </a>
+            </li>
+            <li class="cursor-pointer">
+              <a class="flex gap-1 items-center font-light transition-all hover:text-indigo-600" href="#">
+                <span class="material-symbols-outlined"> paid </span>
+                <p>Pricing</p>
+              </a>
+            </li>
+            <li class="cursor-pointer">
+              <a class="flex gap-1 items-center font-light transition-all hover:text-indigo-600" href="#">
+                <span class="material-symbols-outlined"> school </span>
+                <p>Help</p>
+              </a>
+            </li>
+            <li class="cursor-pointer"><a class="font-light" href="#">
+              <img src="./src/img/avatar.jpg" alt="avatar" class="avatar w-10 rounded-full shadow-md shadow-indigo-300 transition-all duration-300 hover:shadow-indigo-500">
+            </a></li>
+          </ul>
+        </div>
+      </header>
+      <main class="border flex flex-col flex-auto py-2">MAIN</main>
+      <footer class="border">FOOTER</footer>
     </div>
   </body>
 </html>
