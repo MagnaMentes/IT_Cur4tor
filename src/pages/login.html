@@ -11,8 +11,15 @@
     <title>IT_Cur4tor - Login</title>
   </head>
   <body class="">
-    <div class="container h-screen mx-auto flex flex-col flex-auto justify-center items-center">
-        
+    <div class="container h-screen mx-auto flex flex-col flex-auto justify-center items-center relative">
+        <p class="logo text-indigo-500 text-5xl absolute top-56 cursor-default">Hi! Good to see you!</p>
+        <p class="sub-logo text-indigo-400 text-xl absolute top-72 cursor-default">Enter your credentials below</p>
+        <form action="#" method="post" class="Login border rounded-md p-10 flex flex-col shadow-md">
+          <input type="email" name="login" id="login-input" placeholder="Enter your email" class="border rounded-md py-1 px-2 outline-none w-80 text-lg">
+          <input type="password" name="password" id="password-input" placeholder="Enter your password" class="border rounded-md py-1 px-2 mt-1 outline-none text-lg">
+          <button class="border rounded-md shadow-sm transition-shadow duration-300 hover:shadow-md mt-4 py-1 text-lg">Login</button>
+        </form>
+        <p class="text-indigo-200 absolute bottom-10 cursor-default">IT_Cur4tor by magna_mentes</p>
     </div>
   </body>
 </html>
